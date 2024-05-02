@@ -1,10 +1,10 @@
-import type { Navaid } from "@/model";
+import type { NavAid } from "@/model";
 import navData from "@/data/raw/nav.json";
 // import fixData from "./generated/fix.json";
 import { regions } from "@/data/raw/regions";
 import { tacanData } from "@/data/raw/tacan";
 
-const _insertTacan = (nav: Navaid): Navaid => {
+const _insertTacan = (nav: NavAid): NavAid => {
   const { areaCode, ident } = nav;
   const tacan = tacanData.find(
     (t) => t.areaCode === areaCode && t.ident === ident,

@@ -1,6 +1,6 @@
-import type { Navaid } from "@/model";
+import type { NavAid } from "@/model";
 
-export const getNavAidType = (navAid: Navaid) => {
+export const getNavAidType = (navAid: NavAid) => {
   if (navAid.channel) {
     return navAid.frequency ? "VORTAC" : "TACAN";
   } else {

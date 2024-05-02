@@ -1,5 +1,18 @@
 import type { TacanData } from "@/model";
 
+const ek: TacanData[] = [
+  { areaCode: "EK", ident: "AAL", channel: "114X" },
+  { areaCode: "EK", ident: "CDA", channel: "96X" },
+  { areaCode: "EK", ident: "KAR", channel: "37X" },
+  { areaCode: "EK", ident: "KAS", channel: "72X" },
+  { areaCode: "EK", ident: "KOR", channel: "75X" },
+  { areaCode: "EK", ident: "ODN", channel: "102X" },
+  { areaCode: "EK", ident: "RAM", channel: "55Y" },
+  { areaCode: "EK", ident: "ROE", channel: "57X" },
+  { areaCode: "EK", ident: "SKR", channel: "41X" },
+  { areaCode: "EK", ident: "TNO", channel: "121X" },
+  { areaCode: "EK", ident: "VLL", channel: "87X" },
+];
 const eh: TacanData[] = [
   { areaCode: "EH", ident: "AMS", channel: "86Y" },
   { areaCode: "EH", ident: "DLN", channel: "59X" },
@@ -67,4 +80,4 @@ const ed: TacanData[] = [
   { areaCode: "ED", ident: "END", channel: "101X" },
 ];
 
-export const tacanData: TacanData[] = [...eh, ...eb, ...ed];
+export const tacanData: TacanData[] = [...eh, ...eb, ...ed, ...ek];

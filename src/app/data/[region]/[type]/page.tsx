@@ -1,10 +1,10 @@
 import { Table, Title, type TableData } from "@mantine/core";
-import type { Navaid } from "@/model";
+import type { NavAid } from "@/model";
 import { getNavData, getRegion } from "@/data";
 import { displayFrequency, getNavAidType } from "@/lib";
 import { Breadcrumbs, FlagImage } from "@/components";
 
-const getData = async (region: string, type: string): Promise<Navaid[]> => {
+const getData = async (region: string, type: string): Promise<NavAid[]> => {
   return getNavData(region);
 };
 

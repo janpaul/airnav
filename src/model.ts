@@ -1,4 +1,4 @@
-export type Navaid = {
+export type NavAid = {
   lat: number;
   lon: number;
   elevation: number;
