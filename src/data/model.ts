@@ -1,0 +1,2 @@
+type Nav = {};
+type Airport = {};
