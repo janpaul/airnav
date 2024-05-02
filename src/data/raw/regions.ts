@@ -6,7 +6,7 @@ export const regions: IRegion = {
   EE: ["Estonia", "ee"],
   EF: ["Finland", "fi"],
   EG: ["United Kingdom", "gb"],
-  EH: ["The Netherlands", "nl"],
+  EH: ["Netherlands, the", "nl"],
   EI: ["Ireland", "ie"],
   EK: ["Denmark", "dk"],
   EL: ["Luxemburg", "lu"],

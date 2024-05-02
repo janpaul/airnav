@@ -9,3 +9,8 @@ export type Navaid = {
   areaCode: string;
   name: string;
 };
+export type TacanData = {
+  areaCode: string;
+  ident: string;
+  channel: string;
+};

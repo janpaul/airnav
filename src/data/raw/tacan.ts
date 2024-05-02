@@ -1,4 +1,4 @@
-import type { TacanData } from "@/data/model";
+import type { TacanData } from "@/model";
 
 const eh: TacanData[] = [
   { areaCode: "EH", ident: "AMS", channel: "86Y" },
